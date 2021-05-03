@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {    
+    text-align: center;
+}
+
+h1{
+    padding: 20px;
+}
+
+h2{
+    float: right;
+    border-bottom: 1px solid rgb(241 241 241);
+    border-left: 1px solid rgb(241 241 241);
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-right: 0px;
+    margin-right: -1px;
+    width: 35%;
+}
+
+p{
+    padding: 35px 10px 10px;
+    text-align: justify;
+}
+
+section{
+    border: 1px solid rgb(241 241 241);
+    margin: 10px;
+    background-color: #fdfdfd;
+    color: rgb(51, 51, 51);
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 15%);
+}
+
+.row{
+    width: 100%
+}
+
+.danger{
+    background-color: #680101;
+    color: #ffa3a3;
+    border-color: #ffa3a3;
+}
+
+.success{
+    background-color: #00640d;
+    color: #6eb477;
+    border-color: #6eb477;
+}
+
+.info{
+    background-color: #0077d8;
+    color: #92ceff;
+    border-color: #92ceff;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4{
+        width: 33.33%;
+        float: left;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6{
+        width: 50%;
+        float: left;
+    }
+    .col-md-12{
+        width: 100%;
+        float: left;
+    }
+}
