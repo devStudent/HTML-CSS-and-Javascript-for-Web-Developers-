@@ -2,8 +2,7 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 
 var letra;
 for (var i=0; i < names.length; i++) {  
-  letra=names[i].charAt(0).toLowerCase();  
-  console.log(letra);
+  letra=names[i].charAt(0).toLowerCase();    
   if (letra==='j') {
     speakGoodBye.speak(names[i]);
   } else {
